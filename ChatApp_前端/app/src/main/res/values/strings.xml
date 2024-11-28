@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="chat_friend">Chat with %1$s</string>
+</resources>
