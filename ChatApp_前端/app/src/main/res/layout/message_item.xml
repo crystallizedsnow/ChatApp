@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvMessageContent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/message_bubble_sent"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:text="Your message"
+        android:textSize="16sp"
+        android:maxWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:singleLine="false"
+        android:visibility="gone" />
+
+    <!-- 消息图片 -->
+    <ImageView
+        android:id="@+id/ivMessageImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/tvMessageTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="12:30 PM"
+        android:textColor="#AAAAAA"
+        android:textSize="12sp" />
+</LinearLayout>
